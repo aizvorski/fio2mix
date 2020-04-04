@@ -8,6 +8,8 @@ The device is intended to operate at flow rates between 0 and 40 lpm at the outl
 
 In particular, the gasses may be oxygen and air.
 
+![Cross section](/fio2mix.PNG)
+
 ## DISCLAIMER
 
 This is not a medical device, and is not intended to be used as part of a medical device.  It is especially not intended to be used in critical life support equipment.  It comes with ABSOLUTELY NO WARRANTY.  If you build it and use it, you do so at your own risk.  If you build devices incorporating this design and use them for any application, it is up to you to verify the performance is suitable for your application and complies with all applicable laws.
