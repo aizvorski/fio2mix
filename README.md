@@ -20,7 +20,11 @@ In order for this device to work, it needs to have fairly precise tolerances of 
 
 The parts can be injection molded, milled (with a very small cutter), or possibly 3D printed.  The easiest is injection molding plus a milling step for the side ports and thread.  If 3D printed, SLS or MJF are probably the best processes; the injector channel should be undersized in the print, and expanded with a steel pin in order to get the exact size and shape.
 
-The material is not critical.  However, if one of the gasses used is oxygen, the material must be oxygen compatible.  There are many materials which will SPONTANEOUSLY IGNITE in pure oxygen at moderate pressures.  It is up to you to VERIFY THE OXYGEN COMPATIBILITY of the specific material you use.  The following are some rough guidelines.  Probably okay: brass, stainless steels, nylon, (some) polycarbonates.  Probably NOT OK: carbon steels, aluminum, most other plastics.  Make SURE there is no residual lubricant from machining or any other organic contaminants left on the parts.
+The two parts should be pressed against each other as shown.  They would be held in place by something else, presumably an inlet tube which is part of the body of another device.  Additional threads may be added to accomplish this.
+
+The material is not critical.  However, if one of the gasses used is oxygen, the material must be oxygen compatible.  There are many materials which will SPONTANEOUSLY IGNITE in pure oxygen at moderate pressures.  It is up to you to VERIFY THE OXYGEN COMPATIBILITY of the specific material you use.  The following are some rough guidelines.  Probably okay: brass, stainless steels, nylon, (some) polycarbonates.  Probably NOT OK: carbon steels, aluminum, most other plastics.  
+
+Make SURE there is no residual lubricant from machining or any other organic contaminants left on the parts.
 
 ## COPYRIGHT AND LICENSE
 
