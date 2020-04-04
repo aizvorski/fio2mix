@@ -16,7 +16,7 @@ This is not a medical device, and is not intended to be used as part of a medica
 
 ## CONSTRUCTION
 
-In order for this device to work, it needs to have fairly precise tolerances of the channels where the gas flows.  In particular, any of the cross-sectional areas along the flow of gas (including the injector hole) should be within 5-10% of the cross section shown.  That means that the tolerances in some of the narrower areas are 0.05mm or preferably 0.02mm.  Additionally, the walls should be smooth, especially where the cross section is narrowest.  Deviations would result in a mix ratio different from 50%, and/or a mix ratio that varies with flow.
+In order for this device to work, it needs to have fairly precise tolerances of the channels where the gas flows.  In particular, any of the cross-sectional areas along the flow of gas (including the injector hole) should be within 5-10% of the cross section shown.  That means that the tolerances in some of the narrower areas are 0.05mm or preferably 0.02mm.  Additionally, the walls should be smooth, especially where the cross section is narrowest.  Deviations would result in a mix ratio which is different from the target, and/or a mix ratio that varies with flow rates.
 
 The parts can be injection molded, milled (with a very small cutter), or possibly 3D printed.  The easiest is injection molding plus a milling step for the side ports and thread.  If 3D printed, SLS or MJF are probably the best processes; the injector channel should be undersized in the print, and expanded with a milled steel pin of the right cross section in order to get the exact size and shape.
 
