@@ -1,4 +1,6 @@
-PURPOSE
+# FiO2mix - gas mixer device
+
+## PURPOSE
 
 The device described here is intended to mix two gasses.  One gas is injected into the device through the center port.  The other gas is drawn in through the side ports.  This is a form of injector pump - the flow of the first gas and the geometry creates suction which draws in the second gas.
 
@@ -6,24 +8,62 @@ The device is intended to operate at flow rates between 0 and 40 lpm at the outl
 
 In particular, the gasses may be oxygen and air.
 
-DISCLAIMER
+## DISCLAIMER
 
 This is not a medical device, and is not intended to be used as part of a medical device.  It is especially not intended to be used in critical life support equipment.  It comes with ABSOLUTELY NO WARRANTY.  If you build it and use it, you do so at your own risk.  If you build devices incorporating this design and use them for any application, it is up to you to verify the performance is suitable for your application and complies with all applicable laws.
 
-CONSTRUCTION
+## CONSTRUCTION
 
-In order for these to work, they need to have fairly precise tolerances of the channels where the gas flows.  In particular, any of the cross-sectional areas (including the injector hole) should be within 5-10% of the cross section shown.  That means that the tolerances in some areas are 0.05mm or preferably 0.02mm.  Additionally, the walls should be smooth, especially where the cross section is narrowest.  Deviations would result in a mix ratio different from 50%, and/or a mix ratio that varies with flow.
+In order for this device to work, it needs to have fairly precise tolerances of the channels where the gas flows.  In particular, any of the cross-sectional areas along the flow of gas (including the injector hole) should be within 5-10% of the cross section shown.  That means that the tolerances in some of the narrower areas are 0.05mm or preferably 0.02mm.  Additionally, the walls should be smooth, especially where the cross section is narrowest.  Deviations would result in a mix ratio different from 50%, and/or a mix ratio that varies with flow.
 
-The parts can be injection molded, milled (with a very small cutter), or possibly 3D printed.  The easiest is injection molding plus a milling step for the side ports and thread.  If 3D printed, SLS or MJF are probably best; the injector channel should be undersized in the print, and expanded with a steel pin in order to get the exact size and shape.
+The parts can be injection molded, milled (with a very small cutter), or possibly 3D printed.  The easiest is injection molding plus a milling step for the side ports and thread.  If 3D printed, SLS or MJF are probably the best processes; the injector channel should be undersized in the print, and expanded with a steel pin in order to get the exact size and shape.
 
-The material is not critical.  However, if one of the gasses used is oxygen, the material must be oxygen compatible.  There are many materials which will SPONTANEOUSLY IGNITE in pure oxygen at moderate pressures.  It is up to you to VERIFY THE OXYGEN COMPATIBILITY of the specific material you use.  Probably okay: brass, stainless steels, nylon, (some) polycarbonates.  Probably NOT OK: carbon steels, aluminum, most other plastics.  Make SURE there is no residual lubricant from machining or any other organic contaminants left on the parts.
+The material is not critical.  However, if one of the gasses used is oxygen, the material must be oxygen compatible.  There are many materials which will SPONTANEOUSLY IGNITE in pure oxygen at moderate pressures.  It is up to you to VERIFY THE OXYGEN COMPATIBILITY of the specific material you use.  The following are some rough guidelines.  Probably okay: brass, stainless steels, nylon, (some) polycarbonates.  Probably NOT OK: carbon steels, aluminum, most other plastics.  Make SURE there is no residual lubricant from machining or any other organic contaminants left on the parts.
 
-ADDITIONAL DISCLAIMERS FROM CC-BY-SA LICENSE
+## COPYRIGHT NOTICE
 
-5. Representations, Warranties and Disclaimer
+Copyright 2020 Alex Izvorski <aizvorski@gmail.com>
 
-UNLESS OTHERWISE AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE MATERIALS, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
+This Source (CAD files and other design materials) describes Open Hardware and is licensed under the CERN-OHL-S v2.
 
-6. Limitation on Liability. 
+You may redistribute and modify this Source and make products using it under the terms of the CERN-OHL-S v2 (https:/cern.ch/cern-ohl).
 
-EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+Source Location: https://github.com/aizvorski/fio2mix
+
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this Source, You must maintain the Source Location visible on the external case of the hardware or other product you make using this Source.
+
+## DISCLAIMER OF WARRANTY, EXCLUSION AND LIMITATION OF LIABILITY
+
+Additionally, the following important disclaimers from the CERN-OHL-S v2 license apply to all use (reproduced below for clarity).  Do not download or use these files unless you have read and agree with the following.
+
+  6.1 DISCLAIMER OF WARRANTY -- The Covered Source and any Products
+      are provided 'as is' and any express or implied warranties,
+      including, but not limited to, implied warranties of
+      merchantability, of satisfactory quality, non-infringement of
+      third party rights, and fitness for a particular purpose or use
+      are disclaimed in respect of any Source or Product to the
+      maximum extent permitted by law. The Licensor makes no
+      representation that any Source or Product does not or will not
+      infringe any patent, copyright, trade secret or other
+      proprietary right. The entire risk as to the use, quality, and
+      performance of any Source or Product shall be with You and not
+      the Licensor. This disclaimer of warranty is an essential part
+      of this Licence and a condition for the grant of any rights
+      granted under this Licence.
+
+  6.2 EXCLUSION AND LIMITATION OF LIABILITY -- The Licensor shall, to
+      the maximum extent permitted by law, have no liability for
+      direct, indirect, special, incidental, consequential, exemplary,
+      punitive or other damages of any character including, without
+      limitation, procurement of substitute goods or services, loss of
+      use, data or profits, or business interruption, however caused
+      and on any theory of contract, warranty, tort (including
+      negligence), product liability or otherwise, arising in any way
+      in relation to the Covered Source, modified Covered Source
+      and/or the Making or Conveyance of a Product, even if advised of
+      the possibility of such damages, and You shall hold the
+      Licensor(s) free and harmless from any liability, costs,
+      damages, fees and expenses, including claims by third parties,
+      in relation to such use.
