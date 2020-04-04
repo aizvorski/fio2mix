@@ -20,7 +20,7 @@ The parts can be injection molded, milled (with a very small cutter), or possibl
 
 The material is not critical.  However, if one of the gasses used is oxygen, the material must be oxygen compatible.  There are many materials which will SPONTANEOUSLY IGNITE in pure oxygen at moderate pressures.  It is up to you to VERIFY THE OXYGEN COMPATIBILITY of the specific material you use.  The following are some rough guidelines.  Probably okay: brass, stainless steels, nylon, (some) polycarbonates.  Probably NOT OK: carbon steels, aluminum, most other plastics.  Make SURE there is no residual lubricant from machining or any other organic contaminants left on the parts.
 
-## COPYRIGHT NOTICE
+## COPYRIGHT AND LICENSE
 
 Copyright 2020 Alex Izvorski <aizvorski@gmail.com>
 
