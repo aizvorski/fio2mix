@@ -4,9 +4,9 @@
 
 The device described here is intended to mix two gasses.  One gas is injected into the device through the center port.  The other gas is drawn in through the side ports.  This is a form of injector pump - the flow of the first gas and the geometry creates suction which draws in the second gas.
 
-The device is intended to operate at flow rates between 0 and 40 lpm at the outlet, and mixes the gasses in roughly equal amounts (by volume at standard temperature and pressure) at most flow rates.  
+The device is intended to operate at flow rates between 0 and 40 lpm at the outlet from a few psi in the center port and atmospheric pressure at the side port, and mixes the gasses at a ratio of roughly 1/3 center and 2/3 side (by volume at standard temperature and pressure) at most flow rates.  
 
-In particular, the gasses may be oxygen and air.
+In particular, the gasses may be oxygen and air, which would result in a 50% oxygen mix.
 
 ![Cross section](/fio2mix.PNG)
 
